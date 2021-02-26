@@ -6,6 +6,7 @@
 	<artifactId>DialogFlowSpringApplication</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>DialogFlowSpringApplication</name>
+	<packaging>war</packaging>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
