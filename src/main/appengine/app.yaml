@@ -1,4 +1,5 @@
 runtime: java
+env: dev
 runtime_config:
   jdk: openjdk8
 env_variables:
