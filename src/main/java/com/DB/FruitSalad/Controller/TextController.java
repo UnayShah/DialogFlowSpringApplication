@@ -22,6 +22,12 @@ public class TextController {
 	@Autowired
 	private DialogFlowService dialogFlowService;
 
+	
+	@GetMapping("/")
+    public String home() {
+        return "Hello World!";
+    }
+	
 	@PostMapping("/navigationController")
 	public ResponseEntity<Map<String, String>> navigationController(
 			@RequestParam("navigationPageName") String navigationPageName,
