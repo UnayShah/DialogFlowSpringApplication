@@ -40,7 +40,7 @@ public class IntentAPI {
             SessionsSettings sessionsSettings = SessionsSettings.newBuilder()
                     .setCredentialsProvider(
                             FixedCredentialsProvider.create(GoogleCredentials.fromStream(new FileInputStream(
-                                    new File("C:\\Users\\Bhagyashree\\Downloads\\hack-fruitsalad-2805a0bee0a7.json")))))
+                                    new File("src\\main\\resources\\hack-fruitsalad-2805a0bee0a7.json")))))
                     .build();
 
             Map<String, QueryResult> queryResults = new HashMap<String, QueryResult>();
@@ -97,10 +97,10 @@ public class IntentAPI {
         Map<String, QueryResult> result = detectIntent(AppConstants.PROJECT_NAME,AppConstants.LOCATION,AppConstants.MANUAL_OR_AUDIO_AGENT,
                 "12345",query,AppConstants.LANGUAGE_CODE);
 
-        /**
-         * this implementation can be done after creating new agent
-         *
-         */
+        for(Map.Entry<String,QueryResult> res : result.entrySet()){
+            QueryResult qr = res.getValue();
+            System.out.println(qr);
+        }
         return val;
     }
 
