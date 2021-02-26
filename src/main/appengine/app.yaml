@@ -2,6 +2,7 @@ runtime: java
 env: standard
 runtime_config:
   jdk: openjdk8
+service: dialog-flow
 handlers:
 - url: /.*
   script: this field is required, but ignored
