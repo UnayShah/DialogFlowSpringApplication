@@ -23,7 +23,7 @@ public class TextController {
 	private DialogFlowService dialogFlowService;
 
 	
-	@GetMapping("/")
+	@GetMapping("/test")
     public String home() {
         return "Hello World!";
     }

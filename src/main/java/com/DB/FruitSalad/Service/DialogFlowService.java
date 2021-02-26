@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;
 
 import com.DB.FruitSalad.AppConstants;
@@ -73,8 +74,8 @@ public class DialogFlowService {
 	public SessionsClient sessionClient(String sessionId) {
 		try {
 			SessionsSettings sessionsSettings = SessionsSettings.newBuilder()
-					.setCredentialsProvider(FixedCredentialsProvider.create(GoogleCredentials.fromStream(
-							new FileInputStream(new File("src\\main\\resources\\hack-fruitsalad-2805a0bee0a7.json")))))
+					.setCredentialsProvider(FixedCredentialsProvider.create(GoogleCredentials
+							.fromStream(new ClassPathResource("hack-fruitsalad-2805a0bee0a7.json").getInputStream())))
 					.build();
 			return SessionsClient.create(sessionsSettings);
 		} catch (Exception e) {
@@ -113,11 +114,10 @@ public class DialogFlowService {
 		map.put(AppConstants.CAPTURED_TEXT_KEY, capturedValue);
 		return map;
 	}
-	
 
 	// DialogFlow API Detect Intent sample with text inputs.
-	public Map<String, QueryResult> detectIntent(String projectId, String locationId, String agentId,
-			String sessionId, String text, String languageCode) throws IOException, ApiException {
+	public Map<String, QueryResult> detectIntent(String projectId, String locationId, String agentId, String sessionId,
+			String text, String languageCode) throws IOException, ApiException {
 		SessionsSettings.Builder sessionsSettingsBuilder = SessionsSettings.newBuilder();
 		if (locationId.equals("global")) {
 			sessionsSettingsBuilder.setEndpoint("dialogflow.googleapis.com:443");
@@ -126,9 +126,8 @@ public class DialogFlowService {
 		}
 		try {
 			SessionsSettings sessionsSettings = SessionsSettings.newBuilder()
-					.setCredentialsProvider(
-							FixedCredentialsProvider.create(GoogleCredentials.fromStream(new FileInputStream(
-									new File("src\\main\\resources\\hack-fruitsalad-2805a0bee0a7.json")))))
+					.setCredentialsProvider(FixedCredentialsProvider.create(GoogleCredentials
+							.fromStream(new ClassPathResource("hack-fruitsalad-2805a0bee0a7.json").getInputStream())))
 					.build();
 
 			Map<String, QueryResult> queryResults = new HashMap<String, QueryResult>();
