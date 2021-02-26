@@ -11,5 +11,6 @@ public interface AppConstants {
 	final public static String FORM_AGENT = "3ebfe9c9-10de-4369-bb95-16e1005e8f9a";
 	final public static String MANUAL_OR_AUDIO_AGENT = "3d1f2c36-feea-4c2e-9fd8-4f217d0b2565"; // need to set
 	final public static String MATCH_TYPE = "match_type";
+    final public static String EXTRACTED_VALUE = "extracted_value";
 	final public static String LANGUAGE_CODE = "en-US";
 }
