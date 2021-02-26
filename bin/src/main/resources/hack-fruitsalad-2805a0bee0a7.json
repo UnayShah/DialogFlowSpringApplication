@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "hack-fruitsalad",
+  "private_key_id": "2805a0bee0a70ca9d8d0f7db6c2ee65acbc8313a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCcr9xfaHsNlWj9\npc+B9lJVmY7sm7KwTtayDNuu4lcpWk23oXza/YKMWlrCF5wDrtizSelRNeJEoOt6\niEoerzSJaIHq29Vga1c3vwzaDSlB+p7s5soP+BeeBuFciV4CM+WMHnq/kBt5rCMb\nOVnZvFCOHYAnxBYcI0UrxsTAed9+fdv/G80HGd16rEd8jfK6qS7UzrJbPIjdh0vD\n4JR8ueGsT2OSw/tIsolilCRPxENjgNcO/bu21eN2kUgvq/OB6jyHzuatgoN0oQBv\nkEtjKCjtNhAUEKRncjaUM2QwRIG/sQV32T0SCtW5T8P/GiVy40rTn9yje/jP9eSR\n2ku5KC0XAgMBAAECggEAA6tvI8FMlH2QOm4rBUlLSPVYoa9mokN01GToGXLBBaQE\nSvQAx344rWg8u1JjO7py5jjc1CNioiakrTd9vBwKK0FKPagAmaQAV6FlWY84wD9W\n5oew0GpU+N7PYcpXBc7Iv9BDVRlsBoL8eLN0qI+4N6pDaWsDW40l6xSm+gNz5qbE\nx9XBSHywls1c4sAwpcIjl2PfdHQICPzy49JMYmJVFeETrOqGIqzkXICIQelitwZT\nvyHcC6Hapv0XC7T9S1eIDVHFzRhlzDHeWv7Gz00gGTc+alEQO2M5IOXXInB8iD3d\nY3EQ7JE0W+tsrQ/4JzeXo3GcJnmEK+sixUuUQytZHQKBgQDMZipGAhTuXgYukiNm\neBpLcjw119rCnz2wEJtEGKgjDJQ9PHIKFyw74rRLDUARJ2tbdJO70qne0Xm6PdSm\n8hbPjyG3jCUqBpatSTdme16LtE3fJVv72V9D0bEAETEXJbcVQFKdG8TDPKzmQX5V\n6ZrMgtDE6xG3HleCMKf0oE9k3QKBgQDEPiwqmK31hJCIrUKAuhzZJ/x4sH/28Q0z\nsonyD0F738zFGiCIEXr9Dz6sXtAUWEwPXaLcVXhGfCOS8uLKWL+yJVIuoqQI0sjn\nJShgEGCfUSJLUxkJ8xZQjotCO9wQmVfRNdUNqxkzzoOlAJDRH3uv/saFVbMvOYxS\nut6FRaTQgwKBgADvhsoDQG1G6OhVquvRKO2nfDcS4eF6MSIZMVzCcCKY8CTHng4F\nxSIRC5o8WUq6z3b/tZ1qfXSTqOb9WXfaK9iPYywf7BuhJBdu+l3xuqERFjorRZyF\nhjYdQ54odf0RIyFpxfcKJYBvSqtTKWzjQN4myyXbnZ0k+mmSJ3KrOTHRAoGABQWG\nQczIXsj2ndi5I+wfQttIFZqGm74NVW5TI1OKnG3cooqJnJG98O3L78M5VdvwjlAa\nE8NIIZ2Zl3AJp53fweI8mR7mTad/JpMH1nV0037S/tRwhpWm04biP16iwfX6jkrv\nWbswGOhG7Bj4m7FPi/BcChtoS2QQmClZ+lUO45sCgYAa0qwVGAR8uMsnLaFmx9wp\nG6OwfQ8chfBG+KttaT4TUUHi6I7rMiPcXAnuYStwgItCNqKMBxLgI/GAB61cHd3J\nsXazUT5vrsJ5x4Hqj3VLKbvVjZPvEk6gih/8OBQlx+XjU42D3SkSQ3r7t5xj4drC\nC+coDQ0+8e9hBcsNOv0s3g==\n-----END PRIVATE KEY-----\n",
+  "client_email": "dialogflowservice@hack-fruitsalad.iam.gserviceaccount.com",
+  "client_id": "102352265040968730254",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dialogflowservice%40hack-fruitsalad.iam.gserviceaccount.com"
+}

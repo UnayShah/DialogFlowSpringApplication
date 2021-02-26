@@ -14,5 +14,4 @@ public interface AppConstants {
 	final public static String MATCH_TYPE = "match_type";
     final public static String EXTRACTED_VALUE = "extracted_value";
 	final public static String LANGUAGE_CODE = "en-US";
-	final public static String EN_US = "en-US";
 }
