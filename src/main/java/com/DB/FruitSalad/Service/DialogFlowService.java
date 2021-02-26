@@ -116,7 +116,7 @@ public class DialogFlowService {
 	
 
 	// DialogFlow API Detect Intent sample with text inputs.
-	public static Map<String, QueryResult> detectIntent(String projectId, String locationId, String agentId,
+	public Map<String, QueryResult> detectIntent(String projectId, String locationId, String agentId,
 			String sessionId, String text, String languageCode) throws IOException, ApiException {
 		SessionsSettings.Builder sessionsSettingsBuilder = SessionsSettings.newBuilder();
 		if (locationId.equals("global")) {
